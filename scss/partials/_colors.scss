@@ -1,0 +1,25 @@
+$grey-color: grey;
+
+body{
+    background-color: black;
+}
+
+header{
+    background-color: rgb(0, 183, 235);
+}
+
+ul {
+    background-color: $grey-color;
+}
+
+li{
+    color: white;
+}
+
+footer{
+    background-color: $grey-color;
+}
+
+section{
+    background-color:$grey-color;
+}
