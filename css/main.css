@@ -325,12 +325,21 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  height: 45px;
   overflow: hidden; }
 
 li {
   display: inline-block;
   padding: 14px 16px;
   text-decoration: none; }
+
+.phone {
+  padding: right 20px;
+  line-height: 21px;
+  margin: 0%;
+  float: right;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite; }
 
 footer {
   width: 100%;
@@ -343,6 +352,13 @@ section {
   padding: 10px;
   margin: 30px;
   border-radius: 25px; }
+
+.button {
+  -webkit-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease; }
+
+.button:hover {
+  background-color: #3a3a3a; }
 
 body {
   background-color: black; }
@@ -361,5 +377,13 @@ footer {
 
 section {
   background-color: grey; }
+
+.phone {
+  font-family: 'Ranga', cursive;
+  font-size: 30px; }
+
+a {
+  text-decoration: none;
+  color: white; }
 
 /*# sourceMappingURL=main.css.map */
