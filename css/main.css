@@ -316,7 +316,7 @@ img.banner {
   display: inline-block;
   width: 100%;
   max-width: 1200px;
-  height: 100%; }
+  margin-bottom: -4px; }
 
 nav {
   width: 100%; }
